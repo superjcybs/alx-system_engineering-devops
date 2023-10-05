@@ -1,0 +1,2 @@
+#!/bin/bash
+perl -MEncode -nE 'say encode("rot13", $_);'
