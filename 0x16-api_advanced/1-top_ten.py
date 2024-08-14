@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""This is a function to print hot posts on a given Reddit subreddit"""
 import requests
 
+"""TASK: To print hot posts on a given subreddit"""
 
 def top_ten(subreddit):
-    """Print the titles of the 10 hottest posts on a given subreddit."""
+    """the top_ten prototype will Query and Print the titles of the first 10 hot posts on a given subreddit"""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)
     headers = {
         "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/bdov_)"
