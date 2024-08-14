@@ -18,3 +18,5 @@ def number_of_subscribers(subreddit):
         return results.get("subscribers", 0)
     except( ValueError, AttributeError):
         return 0    
+
+print(number_of_subscribers("programming"))
